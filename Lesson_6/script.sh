@@ -4,7 +4,7 @@
 
 Help()
 {
-    echo "Command syntax: ./script.sh <name> <last_name> <age> <gender>"
+    echo "Command syntax: ./<scriptfile.sh> <name> <last_name> <age> <gender>"
 }
 
 name=$1
