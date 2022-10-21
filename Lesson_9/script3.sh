@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "Enter the password length"
-
-read password
+read -p 'Enter the password length: ' password
 
 if (( $password < 8 || $password > 32 )); then
     echo "Password length must be between 8-32"

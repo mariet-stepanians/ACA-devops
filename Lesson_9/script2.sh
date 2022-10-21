@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Enter number of files"
-read file_number
+read -p 'Enter number of files: ' file_number
 mkdir odd even
 
 for ((i = 1 ; i <= $file_number ; i++)); do 
